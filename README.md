@@ -1,4 +1,4 @@
-# B34R5HELL.github.io
+# BEARSHELL.github.io
 Bearshell CTF Team Homepage
 
 <p align="center">
@@ -7,7 +7,7 @@ Bearshell CTF Team Homepage
 
 ## Location
 
-Go to [B34R5HELL.github.io](B34R5HELL.github.io) to view our external website
+Go to [bearshell.github.io](bearshell.github.io) to view our external website
 
 ## Information
 
