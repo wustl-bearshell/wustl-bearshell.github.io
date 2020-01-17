@@ -7,7 +7,7 @@ Bearshell CTF Team Homepage
 
 ## Location
 
-Go to [wustl-bearshell.github.io](wustl-bearshell.github.io) to view our external website
+Go to [wustl-bearshell.github.io](https://wustl-bearshell.github.io/) to view our external website
 
 ## Information
 
