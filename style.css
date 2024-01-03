@@ -1,20 +1,25 @@
 
-body {background-color:black;}
+body 
+{
+    background-color:black;
+    font-family: monospace;
+}
 
 h1
 {
+    font-family: monospace;
+    font-size: 60px;
     color:#35b729;
     text-align:center;
     margin:0px 0px;
 }
 
-p
-{
-    color: white;
+img {
+  display: block;
 }
 
 .button {
-    display: inline-block;
+    display: block;
     padding: 15px 25px;
     font-size: 24px;
     font-family: monospace;
@@ -31,21 +36,15 @@ p
     height: 100%;
 }
 
-.button:hover {background-color: #35b729}
+.button:hover, .button:active, .button:focus {
+    background-color: #35b729;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
-              .button:active {
-              background-color: #35b729;
-              box-shadow: 0 5px #666;
-              transform: translateY(4px);
-              }
-              .button:focus {
-              background-color: #35b729;
-              box-shadow: 0 5px #666;
-              transform: translateY(4px);
-              }
 h2
 {
-  font-family: 'Michroma', sans-serif;
+    font-family: 'Michroma', sans-serif;
 
     font-size: 70px;
     color:#35b729;
@@ -59,13 +58,36 @@ h2
   width: 5%;
 }
 
-.ascii_table
+.main
 {
+/*    flex:0 0 66.66667%;*/
+    width: 60%;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 18px;
+    color: white;
+}
+
+/* Nav menu */
+.navigation_menu
+{
+    flex: 0 0 25%;
     font-family: monospace;
     font-size: 18px;
-    white-space: pre;
-    color:#35b729;
+    color:white;
+}
 
+
+.block
+{
+     margin-bottom: 8%;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .footer
@@ -73,8 +95,13 @@ h2
     font-family: monospace;
     font-size: 12px;
     color:#35b729;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 a {
     color: #49f70a;
 }
+
+
+

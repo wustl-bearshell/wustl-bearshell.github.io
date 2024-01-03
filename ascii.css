@@ -1,0 +1,107 @@
+.title
+{
+  float: right;
+  width: 70%;
+}
+
+/*override padding */
+.padded
+{
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+}
+
+/* ascii table */
+.ascii_table
+{
+    width: 100%;
+    position: relative;
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+
+    border-collapse: collapse;
+}
+
+.ascii_table th
+{
+    font-weight: normal;
+
+    /* blank border to overlap */
+    border: 10px solid transparent;
+    border-collapse: collapse;
+    position: relative;
+
+    /* padding for all */
+    padding: 7px;
+}
+
+.ascii_table td
+{
+    /* blank border to overlap */
+    border: 10px solid transparent;
+    border-collapse: collapse;
+    position: relative; 
+
+    /* padding for all */
+    padding: 10px;
+    vertical-align: top
+}
+
+.ascii_table td::after
+{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+
+    border-style: dashed;
+    border-image: url("AsciiBorder.png") 22 round;
+    border-width: 10px;
+}
+
+.ascii_table th::after
+{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+
+    border-style: dashed;
+    border-image: url("HeaderBorder.png") 22 round;
+    border-width: 10px;
+}
+
+/* make first column as small as possible */
+.ascii_table td:first-child
+{
+    width: 1% 
+}
+
+/* top and bottom borders are always header border */
+.ascii_table tr:first-child td::after, tr:last-child td::after
+{
+    border-style: dashed;
+    border-image: url("HeaderBorder.png") 22 round;
+}
+
+.ascii_table td:not(:first-child)::after, th:not(:first-child)::after
+{
+    border-left: 0;
+    margin-left: 10px;
+}
+
+/* collapse border */
+.ascii_table tr:not(:first-child) td::after,  tr:not(:first-child) th::after
+{
+    border-top: 0;
+    margin-top: 10px;
+}
+
+
