@@ -1,7 +1,8 @@
 .title
 {
   float: right;
-  width: 70%;
+  width: 60%;
+  text-wrap: nowrap;
 }
 
 /*override padding */

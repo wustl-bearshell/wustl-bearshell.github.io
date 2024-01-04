@@ -60,7 +60,6 @@ h2
 
 .main
 {
-/*    flex:0 0 66.66667%;*/
     width: 60%;
     margin-left: auto;
     margin-right:auto;
@@ -71,10 +70,34 @@ h2
 /* Nav menu */
 .navigation_menu
 {
-    flex: 0 0 25%;
     font-family: monospace;
-    font-size: 18px;
-    color:white;
+    font-size: 22px;
+    margin-left: 1%;
+    margin-top: 4%;
+}
+
+.navigation_menu li {
+  position: relative;
+  display: block;
+  padding: 2px;
+  padding-left:20px
+}
+
+.navigation_menu li:after {
+    content: "+";
+    color: #35b729;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.navigation_menu a:hover, .navigation_menu a:active, .navigation_menu a:focus{
+    width: 100%;
+    padding: 2px;
+    background-color: #35b729;
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
 }
 
 
