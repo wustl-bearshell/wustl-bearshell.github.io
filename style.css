@@ -18,6 +18,13 @@ img {
   display: block;
 }
 
+p
+{
+    font: monospace;
+    font-size: 20px;
+    color: white;
+}
+
 .button {
     display: block;
     padding: 15px 25px;
