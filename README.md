@@ -11,6 +11,7 @@ Go to [wustl-bearshell.github.io](https://wustl-bearshell.github.io/) to view ou
 
 ## Information
 
-Slack Workspace [Link to Join](https://join.slack.com/t/b34r5hell/shared_invite/enQtNzUwMDIyODA2MTQ4LWRjYWVjMWQyZjI3YzU3YTcxZDcyODE1ODU2ZTZiZTMwNzg4YmI1YWFhNWJiOGYwNDliMTk5YzhkOTA3ZmUyODk) (never expires)
+Show your h4ck3r sk1llz and find the fl4gz (discord link) embedded within our website to join us ;)
+
 
 Green color: #35b729
