@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /starting_out.html 
