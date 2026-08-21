@@ -1,0 +1,360 @@
+{
+  "team_id": 110145,
+  "team_url": "https://ctftime.org/team/110145",
+  "fetched": "2026-08-18",
+  "note": "Manually updated snapshot of per-event results scraped from the team's CTFtime page (place/points) and the CTFtime events API (start date). Update by re-fetching https://ctftime.org/team/110145 for results and https://ctftime.org/api/v1/events/<id>/ for each event's start date.",
+  "events": [
+    {
+      "place": 441,
+      "event": "UIUCTF 2026",
+      "url": "https://ctftime.org/event/3148",
+      "ctf_points": 50.0,
+      "rating_points": 0.83,
+      "date": "Aug 8"
+    },
+    {
+      "place": 407,
+      "event": "b01lers CTF 2026",
+      "url": "https://ctftime.org/event/3153",
+      "ctf_points": 1.0,
+      "rating_points": 0.168,
+      "date": "Apr 18"
+    },
+    {
+      "place": 459,
+      "event": "TAMUctf 2026",
+      "url": "https://ctftime.org/event/3095",
+      "ctf_points": 109.0,
+      "rating_points": 4.283,
+      "date": "Mar 20"
+    },
+    {
+      "place": 412,
+      "event": "UTCTF 2026",
+      "url": "https://ctftime.org/event/3133",
+      "ctf_points": 920.0,
+      "rating_points": 5.007,
+      "date": "Mar 13"
+    },
+    {
+      "place": 348,
+      "event": "Srdnlen CTF 2026 Quals",
+      "url": "https://ctftime.org/event/3043",
+      "ctf_points": 50.0,
+      "rating_points": 0.61,
+      "date": "Feb 28"
+    },
+    {
+      "place": 141,
+      "event": "Batman's Kitchen CTF 2026",
+      "url": "https://ctftime.org/event/3098",
+      "ctf_points": 3087.0,
+      "rating_points": 5.672,
+      "date": "Feb 21"
+    },
+    {
+      "place": 447,
+      "event": "LA CTF 2026",
+      "url": "https://ctftime.org/event/3015",
+      "ctf_points": 735.0,
+      "rating_points": 4.963,
+      "date": "Feb 7"
+    },
+    {
+      "place": 468,
+      "event": "PascalCTF 2026",
+      "url": "https://ctftime.org/event/2767",
+      "ctf_points": 1054.0,
+      "rating_points": 3.464,
+      "date": "Jan 31"
+    },
+    {
+      "place": 295,
+      "event": "GlacierCTF 2025",
+      "url": "https://ctftime.org/event/2714",
+      "ctf_points": 150.0,
+      "rating_points": 1.186,
+      "date": "Nov 22"
+    },
+    {
+      "place": 176,
+      "event": "AmateursCTF 2025",
+      "url": "https://ctftime.org/event/2844",
+      "ctf_points": 228.0,
+      "rating_points": 1.626,
+      "date": "Nov 14"
+    },
+    {
+      "place": 138,
+      "event": "BuckeyeCTF 2025",
+      "url": "https://ctftime.org/event/2883",
+      "ctf_points": 1350.0,
+      "rating_points": 7.024,
+      "date": "Nov 8"
+    },
+    {
+      "place": 737,
+      "event": "SekaiCTF 2025",
+      "url": "https://ctftime.org/event/2683",
+      "ctf_points": 39.0,
+      "rating_points": 0.442,
+      "date": "Aug 16"
+    },
+    {
+      "place": 168,
+      "event": "DEF CON CTF Qualifier 2025",
+      "url": "https://ctftime.org/event/2604",
+      "ctf_points": 37.0,
+      "rating_points": 0.995,
+      "date": "Apr 12"
+    },
+    {
+      "place": 255,
+      "event": "PlaidCTF 2025",
+      "url": "https://ctftime.org/event/2508",
+      "ctf_points": 43.0,
+      "rating_points": 1.384,
+      "date": "Apr 4"
+    },
+    {
+      "place": 159,
+      "event": "SwampCTF 2025",
+      "url": "https://ctftime.org/event/2573",
+      "ctf_points": 1109.0,
+      "rating_points": 8.716,
+      "date": "Mar 28"
+    },
+    {
+      "place": 2042,
+      "event": "Cyber Apocalypse CTF 2025: Tales from Eldoria",
+      "url": "https://ctftime.org/event/2674",
+      "ctf_points": 6975.0,
+      "rating_points": 2.947,
+      "date": "Mar 21"
+    },
+    {
+      "place": 183,
+      "event": "LA CTF 2025",
+      "url": "https://ctftime.org/event/2592",
+      "ctf_points": 3257.0,
+      "rating_points": 7.116,
+      "date": "Feb 8"
+    },
+    {
+      "place": 440,
+      "event": "Srdnlen CTF 2025 Quals",
+      "url": "https://ctftime.org/event/2576",
+      "ctf_points": 10.0,
+      "rating_points": 0.141,
+      "date": "Jan 18"
+    },
+    {
+      "place": 30,
+      "event": "PwnSec CTF 2024",
+      "url": "https://ctftime.org/event/2454",
+      "ctf_points": 1169.0,
+      "rating_points": 3.187,
+      "date": "Nov 15"
+    },
+    {
+      "place": 985,
+      "event": "DEADFACE CTF 2024",
+      "url": "https://ctftime.org/event/2443",
+      "ctf_points": 3.0,
+      "rating_points": 0.049,
+      "date": "Oct 18"
+    },
+    {
+      "place": 29,
+      "event": "BuckeyeCTF 2024",
+      "url": "https://ctftime.org/event/2449",
+      "ctf_points": 2829.0,
+      "rating_points": 19.899,
+      "date": "Sep 27"
+    },
+    {
+      "place": 541,
+      "event": "HITCON CTF 2024 Quals",
+      "url": "https://ctftime.org/event/2345",
+      "ctf_points": 50.0,
+      "rating_points": 0.775,
+      "date": "Jul 12"
+    },
+    {
+      "place": 253,
+      "event": "DownUnderCTF 2024",
+      "url": "https://ctftime.org/event/2284",
+      "ctf_points": 1708.0,
+      "rating_points": 10.107,
+      "date": "Jul 5"
+    },
+    {
+      "place": 226,
+      "event": "DEF CON CTF Qualifier 2024",
+      "url": "https://ctftime.org/event/2229",
+      "ctf_points": 1.0,
+      "rating_points": 0.362,
+      "date": "May 4"
+    },
+    {
+      "place": 104,
+      "event": "b01lers CTF 2024",
+      "url": "https://ctftime.org/event/2250",
+      "ctf_points": 1297.0,
+      "rating_points": 2.704,
+      "date": "Apr 12"
+    },
+    {
+      "place": 100,
+      "event": "LA CTF 2024",
+      "url": "https://ctftime.org/event/2102",
+      "ctf_points": 5669.0,
+      "rating_points": 7.66,
+      "date": "Feb 17"
+    },
+    {
+      "place": 255,
+      "event": "DiceCTF 2024 Quals",
+      "url": "https://ctftime.org/event/2217",
+      "ctf_points": 222.0,
+      "rating_points": 2.3,
+      "date": "Feb 2"
+    },
+    {
+      "place": 55,
+      "event": "Square CTF 2023",
+      "url": "https://ctftime.org/event/2111",
+      "ctf_points": 626.0,
+      "rating_points": 6.954,
+      "date": "Nov 17"
+    },
+    {
+      "place": 115,
+      "event": "DEADFACE CTF 2023",
+      "url": "https://ctftime.org/event/2031",
+      "ctf_points": 2745.0,
+      "rating_points": 9.212,
+      "date": "Oct 20"
+    },
+    {
+      "place": 155,
+      "event": "BuckeyeCTF 2023",
+      "url": "https://ctftime.org/event/2074",
+      "ctf_points": 869.0,
+      "rating_points": 3.186,
+      "date": "Sep 30"
+    },
+    {
+      "place": 141,
+      "event": "CSAW CTF Qualification Round 2023",
+      "url": "https://ctftime.org/event/2087",
+      "ctf_points": 1842.0,
+      "rating_points": 4.031,
+      "date": "Sep 15"
+    },
+    {
+      "place": 139,
+      "event": "PatriotCTF 2023",
+      "url": "https://ctftime.org/event/2030",
+      "ctf_points": 3779.0,
+      "rating_points": 6.476,
+      "date": "Sep 8"
+    },
+    {
+      "place": 828,
+      "event": "DownUnderCTF 2023",
+      "url": "https://ctftime.org/event/1954",
+      "ctf_points": 425.0,
+      "rating_points": 1.709,
+      "date": "Sep 1"
+    },
+    {
+      "place": 9,
+      "event": "DeadSec CTF 2023",
+      "url": "https://ctftime.org/event/1962",
+      "ctf_points": 2903.0,
+      "rating_points": 12.836,
+      "date": "May 19"
+    },
+    {
+      "place": 53,
+      "event": "DawgCTF 2023",
+      "url": "https://ctftime.org/event/1974",
+      "ctf_points": 1950.0,
+      "rating_points": 8.48,
+      "date": "Apr 21"
+    },
+    {
+      "place": 319,
+      "event": "RITSEC CTF 2023",
+      "url": "https://ctftime.org/event/1860",
+      "ctf_points": 678.0,
+      "rating_points": 2.314,
+      "date": "Mar 31"
+    },
+    {
+      "place": 85,
+      "event": "BuckeyeCTF 2022",
+      "url": "https://ctftime.org/event/1740",
+      "ctf_points": 1590.0,
+      "rating_points": 4.609,
+      "date": "Nov 5"
+    },
+    {
+      "place": 251,
+      "event": "DEADFACE CTF",
+      "url": "https://ctftime.org/event/1692",
+      "ctf_points": 820.0,
+      "rating_points": 2.489,
+      "date": "Oct 14"
+    },
+    {
+      "place": 158,
+      "event": "DownUnderCTF 2022 (Online)",
+      "url": "https://ctftime.org/event/1625",
+      "ctf_points": 1848.0,
+      "rating_points": 3.778,
+      "date": "Sep 23"
+    },
+    {
+      "place": 76,
+      "event": "TAMUctf 2022",
+      "url": "https://ctftime.org/event/1557",
+      "ctf_points": 1167.0,
+      "rating_points": 3.631,
+      "date": "Apr 15"
+    },
+    {
+      "place": 178,
+      "event": "PlaidCTF 2022",
+      "url": "https://ctftime.org/event/1542",
+      "ctf_points": 1.0,
+      "rating_points": 0.557,
+      "date": "Apr 8"
+    },
+    {
+      "place": 336,
+      "event": "H@cktivityCon 2021 CTF",
+      "url": "https://ctftime.org/event/1444",
+      "ctf_points": 986.0,
+      "rating_points": 1.663,
+      "date": "Sep 16"
+    },
+    {
+      "place": 92,
+      "event": "WPICTF 2021",
+      "url": "https://ctftime.org/event/1208",
+      "ctf_points": 501.0,
+      "rating_points": 0.0,
+      "date": "Apr 23"
+    },
+    {
+      "place": 639,
+      "event": "riceteacatpanda",
+      "url": "https://ctftime.org/event/910",
+      "ctf_points": 456.0,
+      "rating_points": 0.339,
+      "date": "Jan 20"
+    }
+  ]
+}

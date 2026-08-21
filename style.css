@@ -74,6 +74,12 @@ h2
     color: white;
 }
 
+.ctftime-page
+{
+    width: 90%;
+    margin-top: 3%;
+}
+
 /* Nav menu */
 .navigation_menu
 {
@@ -131,6 +137,128 @@ h2
 
 a {
     color: #49f70a;
+}
+
+.namecard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 10px;
+    border-left: 2px solid transparent;
+    transition: background-color 0.15s ease, border-left-color 0.15s ease;
+}
+
+.namecard:hover {
+    background-color: rgba(53, 183, 41, 0.08);
+    border-left-color: #35b729;
+}
+
+.role-badge {
+    flex-shrink: 0;
+    display: inline-block;
+    border: 1px solid #35b729;
+    color: #49f70a;
+    background-color: rgba(53, 183, 41, 0.1);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 8px;
+    white-space: nowrap;
+}
+
+.role-badge--former {
+    border-color: #2c4a29;
+    color: #7a9e78;
+    background-color: transparent;
+}
+
+.ctftime-table-wrap {
+    margin-top: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border: 1px solid #35b729;
+    scrollbar-width: thin;
+    scrollbar-color: #35b729 black;
+}
+
+.ctftime-table-wrap--full {
+    max-height: 70vh;
+}
+
+.ctftime-table-wrap--full .ctftime_table {
+    font-size: 20px;
+}
+
+.ctftime-table-wrap--full .ctftime_table th,
+.ctftime-table-wrap--full .ctftime_table td {
+    padding: 10px 16px;
+}
+
+.ctftime-table-wrap::-webkit-scrollbar {
+    width: 10px;
+}
+
+.ctftime-table-wrap::-webkit-scrollbar-track {
+    background: black;
+}
+
+.ctftime-table-wrap::-webkit-scrollbar-thumb {
+    background-color: #35b729;
+    border: 2px solid black;
+}
+
+.ctftime-table-wrap::-webkit-scrollbar-thumb:hover {
+    background-color: #49f70a;
+}
+
+.ctftime_table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.ctftime_table th,
+.ctftime_table td {
+    padding: 6px 12px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.ctftime_table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #35b729;
+    color: black;
+    font-weight: bold;
+}
+
+.ctftime_table tbody tr:nth-child(even) {
+    background-color: rgba(53, 183, 41, 0.08);
+}
+
+.ctftime_table tbody tr:hover {
+    background-color: rgba(53, 183, 41, 0.25);
+}
+
+.ctftime_table td:nth-child(3) {
+    white-space: normal;
+}
+
+/* override ascii_table's decorative th/td border-image, which otherwise
+   bleeds into this nested table via descendant selectors */
+.ctftime-table-wrap .ctftime_table th,
+.ctftime-table-wrap .ctftime_table td {
+    border: none;
+}
+
+.ctftime-table-wrap .ctftime_table th::after,
+.ctftime-table-wrap .ctftime_table td::after {
+    content: none;
 }
 
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>CTFTime</title>
+
+		<!-- css includes -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="ascii.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Michroma&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<nav class="navigation_menu">
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="starting_out.html">Starting Out</a></li>
+				<li><a href="/team.html">Team</a></li>
+				<li><a href="/ctftime.html">CTFtime</a></li>
+			</ul>
+		</nav>
+		<div class="main ctftime-page">
+			<h2>CTFTIME</h2>
+
+			<div class="block">
+				<table class="ascii_table">
+					<tr>
+						<th>CTFtime Placements:</th>
+					</tr>
+					<tr>
+						<td>
+							Our results in recent CTF competitions per <a href="https://ctftime.org/team/110145">CTFtime</a>. Click an event to view it on CTFtime.
+							<div class="ctftime-table-wrap ctftime-table-wrap--full">
+								<table class="ctftime_table">
+									<thead>
+										<tr><th>Date</th><th>Place</th><th>Event</th><th>Rating pts</th></tr>
+									</thead>
+									<tbody id="ctftime-table-body"></tbody>
+								</table>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="footer">
+			BearShell CTF Team
+		</div>
+
+		<script src="ctftime-table.js" defer></script>
+	</body>
+</html>
